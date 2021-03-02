@@ -1,12 +1,10 @@
-package comp2402a3;
-
 import java.io.PrintWriter;
 import java.util.Random;
 import java.util.ArrayList;
 
 /**
  * An implementation of binary trees
- * @author morin
+ * @author Nguyen
  *
  * @param <Node>
  */
