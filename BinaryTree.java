@@ -1,6 +1,7 @@
 import java.io.PrintWriter;
 import java.util.Random;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * An implementation of binary trees
@@ -256,7 +257,12 @@ public class BinaryTree<Node extends BinaryTree.BTNode<Node>> {
     }
 
     public static void main(String[] args) {
-        int numberOfNodes = 25;
+        int numberOfNodes;
+
+        Scanner sc= new Scanner(System.in);
+        System.out.print("Enter a non-negative integer: ");
+        numberOfNodes= sc.nextInt();
+        
         BinaryTree<EndNode> bt = randomBST(numberOfNodes);
 
         System.out.println("Number of nodes: " + numberOfNodes);
