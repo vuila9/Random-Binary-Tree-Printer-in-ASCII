@@ -130,7 +130,7 @@ public class BinaryTree<Node extends BinaryTree.BTNode<Node>> {
      * @param w - PrintWriter
      */
     public void prettyPrint(PrintWriter w) {
-        // TODO: Your code goes here
+        
         Node u = r, prev = nil, next;
         int horizon = 0, vertical = 0;
         int counter1 = 0, counter2 = 0;
