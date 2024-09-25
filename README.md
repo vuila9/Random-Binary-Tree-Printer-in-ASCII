@@ -6,7 +6,7 @@ This piece of codes will randomly generate a randomize binary tree in ASCII form
 
 Here are the images of what you can expect when running this program:
 
-*Please do not input a large number of nodes, although the algorithm I made is very optimized in terms of time complexity, the time it takes to print something out onto the screen will prolong the runtime by a significant amount! (also, your screen will not have enough space to print a binary tree with a gigantic amount of nodes)*
+*Please avoid inputting a large number of nodes. While the algorithm is highly optimized for time complexity, the runtime will significantly increase due to the time required to print the results on the screen. Additionally, the display space may be insufficient to properly render a binary tree with an excessive number of nodes.*
 
 ![image](https://user-images.githubusercontent.com/62405278/109758043-051ec180-7bb9-11eb-8e10-14b554d8afa9.png)
 
